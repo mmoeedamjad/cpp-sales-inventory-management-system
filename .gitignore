@@ -1,0 +1,30 @@
+# -----------------------------------------------------------------------------
+# Git Ignore Configuration - PF Project Workspace
+# -----------------------------------------------------------------------------
+
+# Standalone Portable Compiler Toolchain
+tools/
+tools/*
+
+# IDE & Editor Configuration Directories
+.vscode/
+.idea/
+.vs/
+.gemini/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# Build Artifacts & Temporary Files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Windows System Files
+[Dd]esktop.ini
+[Tt]humbs.db
+$RECYCLE.BIN/
